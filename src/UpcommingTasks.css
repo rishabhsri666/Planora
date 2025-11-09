@@ -1,0 +1,49 @@
+.upcoming-tasks {
+  color: #fff;
+  background-color: #21273A;
+  border-radius: 16px;
+  padding: 20px 25px;
+  border: 2px solid #262B40;
+  max-width: 300px; /* adjust as needed */
+}
+
+.upcoming-tasks h4 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 14px;
+  color: #4E97FE;
+}
+
+.upcoming-tasks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.upcoming-tasks li {
+  padding: 8px 0;
+  border-bottom: 1px solid #2E3144;
+  font-size: 1rem;
+  color: #AAB0C8;
+}
+
+.upcoming-tasks li:last-child {
+  border-bottom: none;
+}
+
+.upcoming-tasks li:hover {
+  background-color: #2E3144;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.25s ease;
+}
+
+/* Adding subtle bullet points */
+.upcoming-tasks li::before {
+  content: '•';
+  color: #4E97FE;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: 8px;
+}
